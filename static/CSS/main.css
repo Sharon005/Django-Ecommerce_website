@@ -1,10 +1,10 @@
   
 body{
-	background-color: hsl(0, 0%, 98%);
+	background-color: hsl(0, 17%, 93%);
 }
 
 h1,h2,h3,h4,h5,h6{
-	color:hsl(0, 0%, 30%);
+	color:hsl(0, 3%, 23%);
 }
 
 .box-element{
@@ -26,8 +26,8 @@ h1,h2,h3,h4,h5,h6{
 	border-radius: 0 0 4px 4px;
 }
 
-.bg-dark{
-	background-color:  #7300e6!important;
+.navbar-dark .navbar-brand:hover{
+	color: gold;
 }
 
 #cart-icon{
@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{
 	display: block;
 	text-align: center;
 	color:#fff;
-	background-color: red;
+	background-color: rgb(219, 53, 53);
 	width: 20px;
 	height: 25px;
 	border-radius: 50%;
@@ -97,4 +97,7 @@ h1,h2,h3,h4,h5,h6{
 
 .hidden{
 	display: none!important;
+}
+.bg-dark {
+    background-color: #272829!important;
 }

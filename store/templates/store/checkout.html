@@ -71,9 +71,10 @@
 		</div>
 	</div>
 
+
 	<script type="text/javascript"> 
+		var total = '{{order.get_cart_total}}'
 		var shipping = '{{order.shipping}}'
-		var total = '{{order.get_cart_total}} '
 
 		if(shipping == 'False')
 		{
@@ -108,6 +109,7 @@
 		{
 			submitFormData()
 		})
+	
 
 		function submitFormData()
 		{
