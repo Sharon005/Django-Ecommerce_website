@@ -13,9 +13,6 @@ Pillow==8.2.0
 pyrsistent==0.17.3
 python-dateutil==2.7.5
 pytz==2021.1
-pywin32==300
-pywinpty==0.5.7
-sniffio==1.2.0
 SQLAlchemy==1.2.19
 sqlparse==0.4.1
 stdlib-list==0.8.0
